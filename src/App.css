@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* –––––––––––––––––––––– ADD my components here ––––––––––––––––––––– */
+
+
+
+.listItem {
+  background-color: rgb(249, 249, 249);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(189, 189, 189);
+  width: 75%;
+  height: 75px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  -webkit-box-shadow: 2px 5px 9px -1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 5px 9px -1px rgba(0,0,0,0.3);
+  box-shadow: 2px 5px 9px -1px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  left: 50%;
+  transform:  translateX(17%);
+  /* overflow: hidden; */
+/* overflow-wrap: anywhere; */
+
+margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: Arial;
+  word-break: break-all;
+  
+  flex: none;
+
+
+
+
+}
+.deleteButton {
+  float: right;
+  /* top: 100%; */
+  transform:  translateY(15%) translateX(-20%);
+}
+.TextITem {
+  float: left;
+  margin-left: 8px;
+  margin-top: 15px;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 20px;
+
+  font-size: 2vw;
+  
+
+  /* margin-bottom: 2px; */
+
+/* flex-wrap: wrap;  overflow: hidden;
+overflow-wrap: break-word; */
+align-items: center;
+text-align: center;
+  /* transform:  translateY(70%) translateX(20%); */
+}
+
+.Createlist{
+  background-color: rgb(249, 249, 249);
+  width: 75%;
+  height: 50%;
+}
+
+/* .addListParent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addListDivWindow {
+  width: 500px;
+  height: 500px;
+  border: solid;
+  border-width: 1px;
+  background-color: white;
+} */
+
+.CancelButton {
+  border: none;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+}
+
+.deleteButton{
+  color: rgb(193, 193, 193);
+font-size: 32px;
+font-weight: 100px;
+/* background-color: rgb(249, 249, 249); */
+background-color: transparent;
+
+border: none;
+outline: none;
+/* position: relative; */
+}
+
+.addListParent{
+  width: 75%;
+  height: 75px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  align-items: center;
+  text-align: center;
+  transform:  translateX(17%);
+overflow: hidden;
+border-style: solid;
+border-color:  rgb(41, 41, 41);
+
+
+font-size: 2vw;
+
+
+}
+
+.inputField{
+  background-color:rgb(62, 62, 62);
+  border-bottom: solid;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-right: none;
+  border-left: none;
+  border-width: 3px;
+  border-top: none;
+  margin-top: 5px;
+  outline: none;
+  font-family: Arial;
+
+
+  font-size: 4vw;
+}
+
+.AddaTask{
+  transform: rotate(45deg);
+  color: rgb(247, 247, 247);
+  font-size: 40px;
+  font-weight: 900;
+  background-color:  rgb(62, 62, 62);
+  border: none;
+  padding: -5px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 10px;
+
+
+  font-size: 4vw;
+
+}
+
+.AddaTask:hover{color: rgb(208, 208, 208);}
+.AddaTask:onclick{color: rgb(162, 162, 162);}
+
+
+.handleRefresh{
+  width: 75%;
+  height: 75px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  align-items: center;
+  text-align: center;
+  transform:  translateX(17%);
+overflow: hidden;
+border-style: solid;
+border-color:  rgb(41, 41, 41);
+
+
+font-size: 4vw;
+}
+
+.handleRefreshFONT{
+  transform: rotate(45deg);
+  color: rgb(247, 247, 247);
+  font-size: 40px;
+  font-weight: 900;
+  background-color:  rgb(62, 62, 62);
+  border: none;
+  padding: -5px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 1px;
+
+  font-size: 4vw;
+}
